@@ -15,8 +15,8 @@
 ## About The Project
 "Safe Life" identifies when an elderly person is in distress and calls for help.
 The system detects person fall, by a "pose detection" algorithm for identifying the movment of the human body.
-If the system detects a fall, it makes a phone contact with a predefine person: relative, staff member, etc.
-For the phone contact,  we used the "twilio directory".
+If the system detects a fall, it makes a phone contact with a predefine person: relative, staff member, etc.<br>
+For the phone contact,  we used the "twilio" library.
 
 An article about our project:
 http://ch7.io/ab5Pz
@@ -29,7 +29,8 @@ Demo of "pose detection" algorithm:
 Build in Python, use OpenCV open source, including machine learning.
 
 ## Installation
-"pose detection" algorithm from OpenCV.
+"pose detection" algorithm from OpenCV.<br>
+"twilio" library.
 
 ## How to use?
 To use the system, you need to install a camera in the desired location, 
